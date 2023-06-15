@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Sigmar;
+    src: url(fonts/Sigmar-Regular.ttf);
+}
+@font-face {
+    font-family: VinaSans;
+    src: url(fonts/VinaSans-Regular.ttf);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px white;
+    background-image: url(img/20220623-fv6ftfnvsaerii0.avif);
+    background-repeat: repeat;
+    background-size: contain;
+    font-size: 1em;
+    justify-content: center;
+}
+
+main{
+    font-size: 18px;
+    border: solid 4px rgba(255, 255, 255, 0.452);
+    border-radius: 20px;
+    box-shadow: -20px 20px 10px rgba(65, 65, 65, 0.753);
+    margin: 50px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+ul{
+    border: solid 3px rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgba(80, 70, 70, 0.596), rgba(95, 28, 28, 0.377));
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+a{
+    font-family: Sigmar, Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(146, 145, 145);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'arial', Courier, serif;
+    letter-spacing: 4px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 8px rgb(241, 5, 5);
+}
+
+a:hover{
+    color: rgba(187, 184, 7, 0.329);
+}
+
+p{
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin-left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#faleconosco{
+    color: yellow;
+}
+
+form{
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+input{
+    margin: 20px;
+    padding: 5px;   
+}
+
+#email{
+    width: 250px;
+}
+
+#nome, #sobrenome, #senha, #idade, #email, #estado, #textarea{
+    margin-bottom: 0.6em;
+    border: solid 1px;
+    box-shadow: 0px 0px 8px rgb(47, 73, 153);
+}
+
+button{
+    font-size: 1em;
+    background-color: rgb(199, 150, 245);
+    border: 0;
+    letter-spacing: 2px;
+    padding: 4px;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 0px black;
+    box-shadow: 0px 0px 8px rgb(47, 73, 153);
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 5px rgb(162, 10, 201);
+}
+
+#check{
+    display: inline-block;
+}
+
+div{
+    text-align: center;
+}
+
+.imagem{
+    border: solid 3px white;
+    border-radius: 10%;
+}
+
+table{
+    font-size: 2em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+}

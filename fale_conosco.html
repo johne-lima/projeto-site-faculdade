@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="shortcut icon" href="img/twd logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="curiosidades.html">CURIOSIDADES</a></li>
+            <li><a href="novidades_noticias.html">NOVIDADES/NOTICIAS</a></li>
+            <li><a href="personagens.html">PERSONAGENS</a></li>
+            <li><a href="fale_conosco.html" id="faleconosco">FALE CONOSCO</a></li>
+        </ul>
+        <h1>REDES SOCIAIS:</h1>
+        <ul>
+            <li><a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img src="img/whatsapp logo.png" alt="whatsapp" width="40px"></a></li>
+            <li><a href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook logo.webp" alt="facebook" width="40px"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram logo.png" alt="instagram" width="40px"></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><img src="img/youtube logo.avif" alt="youtube" width="40px"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="img/twitter logo.png" alt="twitter" width="40px"></a></li>
+        </ul>
+
+        <h2>Ou então entre em contato enviando uma mensagem:</h2>
+        <p>Completo com suas informações.</p>
+
+        <form enctype="">
+            <fieldset>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <div>
+                    <label for="senha">Insira sua senha:</label>
+                    <input type="password" name="senha" id="senha" minlength="6" required>
+                </div>
+            
+                <div>
+                    <label for="idade">Qual a sua idade?</label>
+                    <input type="number" name="idade" id="idade" min="13" max="99" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="exemplo@exemplo.com">
+                    <input type="checkbox" name="receberemails" id="receberemails" value="1" checked>
+                    <label for="receberemails">Quero receber emails</label>
+                </div>
+                <div id="check">
+                    <label for="">Sexo:</label>
+                    <input type="radio" name="sexo" value="M"> Masculino
+                    <input type="radio" name="sexo" value="F"> Feminino
+                    <input type="radio" name="sexo" value="nb" checked> Prefiro não dizer
+                </div>
+                <div>
+                    <label for="">Inserir arquivo:</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+                <div>
+                    <label for="estado">De qual estado você é</label>
+                    <select id="estado" name="estado">
+                        <option selected disabled value="">escolha</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textarea">Envie sua mensagem:</label>
+                    <br>
+                    <textarea name="textarea" id="textarea" cols="50" rows="10" placeholder="Escreva sua mensagem aqui"></textarea>
+                </div>
+                <div>
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </fieldset>
+        </form>
+        <hr>
+
+        <h1>Sobre mim:</h1>
+        <table>
+            <tr>
+                <td>
+                    <p>Johne Keyvid Jesus André de Lima</p>
+                    <p>1ºE - ADS</p>
+                    <p>RA: 33666083</p>
+                </td>
+                <td>
+                    <div><img src="img/eu1.jpg" alt="Eu" width="400px" class="imagem"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="https://www.linkedin.com/in/johne-lima-67a9b0274/" target="_blank"><img src="img/linkedin logo.webp" alt="linkedin" width="80px"></a>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
